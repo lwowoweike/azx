@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
+API_ID = int(getenv("API_ID", "25930799"))
+API_HASH = getenv("API_HASH", "0e9858861616d3b9d62387ecb701c33e")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_NAME = getenv("SESSION_NAME", "")
+SESSION_NAME = getenv("SESSION_NAME", "BAAIPJEeS8ixO29GCEzlBsuUvz59Wk012r1Urtqt2-vXByGFyu87xHa-VoNU656129D5bjLep-9D_CgAGe62P6AbIeJpclFj51LmkWada6jfL9xouEEpYiTtTcByYr9HV_CDs8iXyfEEbeS_h8z4Zsq7BuyZA0ibvPykCR_N1V2pw-yZDldtwp3hdeonSrLSVDH1GJqRbPUpOl77df_-i2sgGObQHjwnmOxJorMmYAEVkbwow7hSDHhRpAxEPlZh4_6VK1mj05kC4PFAY72K3lPLE9QV585hU6JC-VDQS6hqq6z1--ZcKm4R-rDW_Odlc7F-xc7RzxUe9b6SkKm06w4VAAAAAWCFcF8A")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
-ALIVE_NAME = getenv("ALIVE_NAME", "sonng")
-BOT_USERNAME = getenv("BOT_USERNAME", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ruuur")
+ALIVE_NAME = getenv("ALIVE_NAME", "Ali")
+BOT_USERNAME = getenv("BOT_USERNAME", "Aliwojdbot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/X02lx/RrRRR")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "orrox")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "orrox")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5568351247").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5568351247").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
